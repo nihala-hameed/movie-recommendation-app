@@ -18,17 +18,16 @@ A content-based movie recommendation system built using *Python, **Flask, and **
 movie-recommender/
 │
 ├── app.py                        ← Main Flask application
-├── create_pickle.py             ← Script to generate pickle file for similarity
-├── create_similarity.py         ← Builds similarity matrix
-├── recommendation.py            ← Logic for recommending similar movies
-├── similarity.pkl               ← Precomputed similarity data (model)
-├── tmdb_5000_movies.csv         ← Dataset for movie details
-├── tmdb_5000_credits.csv        ← Dataset for cast & crew
+├── create_pickle.py             ← Script to create movies.pkl
+├── create_similarity.py         ← Script to create similarity.pkl
+├── recommendation.py            ← Logic to recommend similar movies
+├── movies.pkl                   ← Pickled movie data
+├── similarity.pkl               ← Pickled similarity matrix (too large to upload on GitHub)
+├── tmdb_5000_credits.csv        ← TMDB dataset (too large to upload)
+├── tmdb_5000_movies.csv         ← TMDB dataset (too large to upload)
 │
 ├── templates/
-│   └── index.html               ← HTML template for the web UI
-│
-└── README.md                    ← Project documentation
+│   └── index.html               ← Frontend UI with HTML/CSS/Bootstrap
 </pre>
 ---
 ## Note:

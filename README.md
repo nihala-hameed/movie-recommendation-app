@@ -15,23 +15,22 @@ A content-based movie recommendation system built using *Python, **Flask, and **
 - Git & GitHub (for version control)
 ## Project Structure
 <pre>
-movie-recommendation-app/
+movie-recommender/
 │
-├── app.py
-├── create_pickle.py
-├── recommendation.py
-├── similarity.pkl
-├── tmdb_5000_movies.csv
-├── tmdb_5000_credits.csv
+├── app.py                        ← Main Flask application
+├── create_pickle.py             ← Script to generate pickle file for similarity
+├── create_similarity.py         ← Builds similarity matrix
+├── recommendation.py            ← Logic for recommending similar movies
+├── similarity.pkl               ← Precomputed similarity data (model)
+├── tmdb_5000_movies.csv         ← Dataset for movie details
+├── tmdb_5000_credits.csv        ← Dataset for cast & crew
 │
 ├── templates/
-│   └── index.html
+│   └── index.html               ← HTML template for the web UI
 │
-├── static/
-│   └── (optional assets like CSS, JS, or images if any)
-│
-└── README.md
-
+└── README.md                    ← Project documentation
+</pre>
+---
 ## Note:
 Due to GitHub's file size limit (25MB), the following files could not be uploaded:
 - movies.pkl

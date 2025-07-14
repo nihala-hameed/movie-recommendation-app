@@ -31,5 +31,18 @@ movie-recommendation-app/
 │   └── style.css              # CSS file for styling the UI
 │
 └── README.md                  # Project documentation
+## Note:
+Due to GitHub's file size limit (25MB), the following files could not be uploaded:
+- movies.pkl
+- similarity.pkl
+- tmdb_5000_credits.csv
+- tmdb_5000_movies.csv
+To run the project fully:
+1. Use create_pickle.py and create_similarity.py to regenerate the .pkl files.
+2. Download the TMDB datasets manually from Kaggle:  
+   [https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata)
+You can then place the files in the appropriate directories and run the project locally.
+## Color Styling
+The UI is styled using Bootstrap with a dark theme and custom text colors to create a cinematic vibe.
 ## Connect 
 If you're interested in trying it out or want the full project, feel free to connect! 
